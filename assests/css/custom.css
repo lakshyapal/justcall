@@ -1,0 +1,171 @@
+.iframe-content {
+    position: fixed;
+    z-index: 2147483647;
+    bottom: 0px;  
+    left: 10px;
+    overflow: hidden;
+    background: transparent;
+}
+
+.iframe-content iframe{
+    border: none;
+    width: 300px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+    display: block;
+}
+
+.frame-change{
+    width: 400px !important;
+    height: 300px !important;
+}
+
+
+body {
+	color: white !important;
+}
+
+.mdi{
+    font-size: 10px !important;
+}
+
+.click-now{
+    padding: 11px 21px !important;
+    border-radius: 50% !important;
+    box-shadow: 5px 5px 14px grey !important;
+    transition: all .25s ease-in-out !important;
+}
+
+.click-now:hover{
+    transform: scale(1.2,1.2);
+}
+
+.p-shake:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: 1; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.closeframe{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 23234324;
+    background: #649af3;
+    border-radius: 50%;
+    padding: 1px 6px;
+}
+
+.closeframe:hover{
+    cursor: pointer;
+}
+
+.closeframe .cross {
+    font-size: 1rem;
+    color: white;
+}
+
+#messagepanel{
+    position: relative;
+}
+
+.cus-input-fields{
+    border-radius: 20px !important;
+    height: 35px !important;
+}
+
+.form-gp-cus{
+    background: white;
+    padding-top: 26px;
+    border-top: 1px solid #649af3;
+}
+
+
+.ip-form{
+   font-weight: bold;
+   width: 100%;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F6F7F9;
+   color: #748194;
+   font-size: 14px;
+}
+.signup1{
+   color:#748194;
+   font-size:30px;
+   text-align:center;
+}
+
+.c2{
+   background-color:white;
+   border-radius:15px;
+   position:absolute;
+   display:inline-block;
+}
+
+.ip-form-texta{
+   font-weight: bold;
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #F6F7F9;
+    color: #748194;
+    font-size: 14px;
+}
+
+#name{
+    background-image: url(../images/envelope.png);
+    background-size: 25px 25px;
+    background-position: 11px 5px;
+    background-repeat: no-repeat;
+    padding: 3px 17px 6px 55px;
+}
+
+
+#phone{
+    background-image: url(../images/phone-receiver.png);
+    background-size: 25px 25px;
+    background-position: 11px 5px;
+    background-repeat: no-repeat;
+    padding: 3px 17px 6px 55px;
+}
+
+.btn-cus{
+   font-weight: bold;
+   width: 100%;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #3087f0;
+   color: white;
+   font-size: 14px;
+}
+
+.w-policy{
+    color: #748194;
+    font-size: 10px;
+    text-align: center;
+}
