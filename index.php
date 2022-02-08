@@ -5,7 +5,7 @@ include "app/navbar.php";
 include "app/sidebar.php";
 ?>
 
-<!--main website content-->
+<!--main website content random commnesdsdf-->
 
 <div class="be-content">
 	
